@@ -1,0 +1,9 @@
+# Data handling and vectorization
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Financial data downloading
+yfinance>=0.2.30
+
+# Visualizations
+matplotlib>=3.7.0

@@ -1,0 +1,13 @@
+# Environments
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Data (Optional: uncomment if you add large CSV files later)
+# data/
+
+# OS generated files
+.DS_Store
