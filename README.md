@@ -14,7 +14,6 @@ Built entirely with Python, Pandas, and NumPy, this engine bypasses traditional 
 
 ## Repository Structure
 
-\`\`\`text
 quant-backtest-engine/
 ├── core/
 │   ├── backtester.py       # Main vectorized engine
@@ -24,7 +23,7 @@ quant-backtest-engine/
 │   └── ma_crossover.py     # Trend-following implementation
 ├── main.py                 # Execution script
 └── requirements.txt        # Project dependencies
-\`\`\`
+
 
 ## Installation & Usage
 
@@ -48,7 +47,7 @@ quant-backtest-engine/
 
 Running the engine executes the strategies, prints the performance metrics to the console, and renders a comparative equity curve visualization.
 
-\`\`\`text
+
 ==================================================
 METRIC               | BOLLINGER    | MA CROSSOVER
 ==================================================
@@ -56,7 +55,7 @@ Annualized Return    | -2.58%       | -1.45%
 Sharpe Ratio         | -0.34        | -0.15
 Max Drawdown         | -73.18%      | -70.69%
 ==================================================
-\`\`\`
+
 *Analysis: On a 1-hour timeframe, high volatility and frequent whipsawing caused both standard mean-reversion and trend-following models to underperform the benchmark, heavily compounded by the drag of 0.1% transaction fees per trade.*
 
 ![Strategy Comparison Chart](chart.png)
